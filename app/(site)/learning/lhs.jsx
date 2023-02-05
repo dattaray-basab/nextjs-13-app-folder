@@ -1,9 +1,6 @@
 import Link from 'next/link'
 
-
-const LHS = async ({  }) => {
-
-
+const LHS = async ({}) => {
   return (
     <section className='fixed h-full w-1/4 bg-stone-800'>
       <div className='center py-4'>
@@ -16,6 +13,9 @@ const LHS = async ({  }) => {
             <Link href={'/learning/html'}>HTML</Link>
           </li>
           <li>
+            <Link href={'/learning/stylesheets'}>Style Sheets</Link>
+          </li>
+          <li>
             <Link href={'/learning/js'}>Java Script</Link>
           </li>
           <li>
@@ -25,7 +25,7 @@ const LHS = async ({  }) => {
             <Link href={'/learning/react'}>React</Link>
           </li>
           <li>
-            <Link href={'/learning/nest_js'}>Next JS</Link>
+            <Link href={'/learning/nextjs'}>Next JS</Link>
           </li>
         </ul>
       </div>
