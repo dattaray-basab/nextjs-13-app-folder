@@ -10,7 +10,7 @@ const LHS = async ({}) => {
         </h2>
         <ul className='flex list-inside list-none flex-col gap-1 text-sm text-white'>
           <li>
-            <Link href={'/learning/html'}>HTML</Link>
+            <Link href={'/learning/htm'}>HTML</Link>
           </li>
           <li>
             <Link href={'/learning/stylesheets'}>Style Sheets</Link>
@@ -22,7 +22,7 @@ const LHS = async ({}) => {
             <Link href={'/learning/ts'}>Type Script</Link>
           </li>
           <li>
-            <Link href={'/learning/react'}>React</Link>
+            <Link href={'/learning/react_js'}>React</Link>
           </li>
           <li>
             <Link href={'/learning/nextjs'}>Next JS</Link>
