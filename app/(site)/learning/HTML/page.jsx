@@ -18,9 +18,10 @@ const Page = () => {
 
           <p>
             The <strong>Second Segment </strong>
-            <Link href={'https://www.youtube.com/watch?v=bWPMSSsVdPk'}>
-            Video
-            </Link>{' '}
+            <Link href='https://www.youtube.com/watch?v=bWPMSSsVdPk'>
+              Video
+            </Link>
+            <br></br>
             watch till 3:30.
           </p>
           <br></br>
@@ -29,13 +30,14 @@ const Page = () => {
             Quiz: What do tags do? What is the code for header tag? Body tag?
             What are the differences between the two and what goes where?
           </p>
-          <br></br>
+          <br />
 
           <p>
-            <strong>Third Segment: </strong>
+            Third Segment:
             <Link href={'https://www.youtube.com/watch?v=qz0aGYrrlhU'}>
-              Video
+              <strong>Video</strong>
             </Link>{' '}
+            <br></br>
             watch from 22:40 till 29:55. Learn to use header, font, bold, and
             color and Inserting images into
           </p>
