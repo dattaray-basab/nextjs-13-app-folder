@@ -1,5 +1,9 @@
 import Link from 'next/link'
 
+
+
+
+
 const Page = () => {
   return (
     <section>
@@ -17,9 +21,9 @@ const Page = () => {
           <br></br>
 
           <p>
-            The <strong>Second Segment </strong>
+            The Second Segment
             <Link href='https://www.youtube.com/watch?v=bWPMSSsVdPk'>
-              Video
+              <strong> Video</strong>
             </Link>
             <br></br>
             watch till 3:30.
