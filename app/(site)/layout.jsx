@@ -1,4 +1,4 @@
-import './globals.css'
+
 import Footer from './footer'
 import Header from './header'
 import Provider from './provider'
